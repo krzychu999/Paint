@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_kolor"
+        android:orderInCategory="1"
+        android:title="Kolory"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_rozmiar"
+        android:orderInCategory="2"
+        android:title="Rozmiar"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_clear"
+        android:orderInCategory="3"
+        android:title="Czyść"
+        app:showAsAction="always"/>
+</menu>
